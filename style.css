@@ -1,0 +1,44 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-section {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-container h1 {
+    color: white;
+    text-align: center;
+    font-size: 65px;
+}
+
+.hero-container p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: tomato;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+}
