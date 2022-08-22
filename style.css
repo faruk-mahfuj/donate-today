@@ -7,7 +7,7 @@ body {
 .hero-section {
     width: 100vw;
     height: 100vh;
-    background-image: url(images/donation6.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0%), rgba(0, 0, 0, 0.9)), url(images/donation6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -19,12 +19,15 @@ body {
 .hero-container {
     display: flex;
     flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .hero-container h1 {
     color: white;
     text-align: center;
     font-size: 65px;
+    margin: 0%;
 }
 
 .hero-container p {
@@ -36,9 +39,10 @@ body {
 .btn {
     background-color: tomato;
     color: white;
-    text-decoration: none;
     padding: 10px;
+    text-decoration: none;
     font-size: 18px;
     text-align: center;
     margin: auto;
+    margin-top: 10px;
 }
