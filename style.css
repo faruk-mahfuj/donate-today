@@ -4,6 +4,34 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+p {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 45px;
+    color: #121212;
+    margin: 0%;
+    margin-top: 130px;
+
+}
+
+button {
+    background-color: rgba(255, 89, 89, 1);
+    color: white;
+    padding: 12px 16px;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Hero Section */
 .hero-section {
     width: 100vw;
     height: 100vh;
@@ -12,7 +40,6 @@ body {
     background-size: cover;
     display: flex;
     align-items: center;
-    justify-content: center;
 
 }
 
@@ -36,13 +63,57 @@ body {
     font-size: 18px;
 }
 
-.btn {
-    background-color: tomato;
-    color: white;
+
+/* Donate Today Section */
+.donate-today-section {
+    display: flex;
+    justify-content: center;
+}
+
+.donate-today-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tk-card-container {
+    display: flex;
+}
+
+.tk-card-item {
+    padding: 25px 40px;
+    margin: 10px;
+    background: #FAFAFA;
+    border-radius: 5px;
+}
+
+#tk-card-item-red {
+    padding: 25px 40px;
+    margin: 10px;
+    background: #FFEEEE;
+    border: 2px solid rgba(255, 89, 89, 1);
+    border-radius: 5px;
+}
+
+.tk-card-item p {
+    font-weight: 700;
+    font-size: 30px;
+    color: #707070;
+}
+
+#tk-card-item-red p {
+    font-weight: 700;
+    font-size: 30px;
+    color: rgba(255, 89, 89, 1);
+}
+
+#amount {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 30px;
     padding: 10px;
-    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid #DADADA;
     font-size: 18px;
     text-align: center;
-    margin: auto;
-    margin-top: 10px;
 }
