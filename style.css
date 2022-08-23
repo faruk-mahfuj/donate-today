@@ -162,3 +162,43 @@ button {
     padding: 24px;
     border-radius: 5px;
 }
+
+/* Extra Section */
+
+.email-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mail-container {
+    display: flex;
+    background-color: #FFF4D6;
+    padding: 100px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+#email {
+    width: 300px;
+    height: 40px;
+    border: none;
+    background-color: #D9D9D9;
+    text-align: left;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+#subscribe {
+    background-color: rgba(255, 89, 89, 1);
+    color: white;
+    width: 120px;
+    height: 42px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    margin: 0%;
+}
